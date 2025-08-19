@@ -194,6 +194,63 @@
 	charmap "7",         $fd
 	charmap "8",         $fe
 	charmap "9",         $ff
+	
+; Greek characters
+	
+	charmap "Α",         $80
+	charmap "Β",         $81
+	charmap "Γ",         $d1	
+	charmap "Δ",         $bb
+	charmap "Ε",         $84
+	charmap "Ζ",         $99	
+	charmap "Η",         $87
+	charmap "Θ",         $bc
+	charmap "Ι",         $88	
+	charmap "Κ",         $8a
+	charmap "Λ",         $bd
+	charmap "Μ",         $8c	
+	charmap "Ν",         $8d
+	charmap "Ξ",         $be
+	charmap "Ο",         $8e	
+	charmap "Π",         $bf
+	charmap "Ρ",         $8f
+	charmap "Σ",         $c0	
+	charmap "Τ",         $93
+	charmap "Υ",         $98
+	charmap "Φ",         $c1	
+	charmap "Χ",         $97
+	charmap "Ψ",         $c2
+	charmap "Ω",         $c3	
+	charmap "α",         $c4
+	charmap "β",         $c5
+	charmap "γ",         $c6	
+	charmap "δ",         $c7
+	charmap "ε",         $c8
+	charmap "ζ",         $c9	
+	charmap "η",         $ca
+	charmap "θ",         $cb
+	charmap "ι",         $cc	
+	charmap "κ",         $cd
+	charmap "λ",         $ce
+	charmap "μ",         $cf	
+	charmap "ν",         $b5
+	charmap "ξ",         $d0
+	charmap "ο",         $e4	
+	charmap "π",         $d2
+	charmap "ρ",         $d3
+	charmap "σ",         $d4	
+	charmap "ς",         $db
+	charmap "τ",         $d5
+	charmap "υ",         $d6	
+	charmap "φ",         $d7
+	charmap "χ",         $d8
+	charmap "ψ",         $d9	
+	charmap "ω",         $da
+	
+	charmap "΄",         $dc
+	charmap "¨",         $dd
+	charmap "΅",         $de
+	charmap "<TONOS2>",  $df ; Tonos used for capital letters
 
 
 ; Japanese kana, for those bits of text that were not translated to English

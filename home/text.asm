@@ -103,7 +103,33 @@ PlaceNextChar::
 	dict "<DEXEND>",  PlaceDexEnd
 	dict "<TARGET>",  PlaceMoveTargetsName
 	dict "<USER>",    PlaceMoveUsersName
+	
+	cp "΄"
+	jr z, .placeTonos
+	cp "¨"
+	jr z, .placeAccent
+	cp "΅"
+	jr nz, .placeChar
+.placeTonos
+	inc de
+	ld a, [de]
+	dec de
+	cp $c3 ; compare next character with uppercase omega
+	jr nc, .upperTonos
+	ld a, "<TONOS2>"
+	jr .placeAccent
+.upperTonos
+	ld a, "΄"
 
+	
+.placeAccent
+	push hl
+	ld bc, -SCREEN_WIDTH
+	add hl, bc
+	ld [hl], a
+	pop hl
+	jr NextChar
+.placeChar
 	ld [hli], a
 	call PrintLetterDelay
 
