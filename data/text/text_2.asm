@@ -1694,62 +1694,65 @@ _LinkCanceledText::
 	done
 
 _OakSpeechText1::
-	text "Hello there!"
-	line "Welcome to the"
-	cont "world of #MON!"
+	text "Γεια σου! Καλ΄ως"
+	line "΄ηρθες στον κ΄οσμο"
+	cont "των #MON!"
 
-	para "My name is OAK!"
-	line "People call me"
-	cont "the #MON PROF!"
+	para "Με λ΄ενε OAK!"
+	line "Ε΄ιμαι γνωστ΄ος ως"
+	cont "ο ΚΑΘ. #MON!"
 	prompt
 
 _OakSpeechText2A::
-	text "This world is"
-	line "inhabited by"
-	cont "creatures called"
-	cont "#MON!@"
+	text "Αυτ΄ος ο κ΄οσμος"
+	line "κατοικε΄ιται απ΄ο"
+	cont "πλ΄ασματα γνωστ΄α"
+	cont "ως #MON!@"
 	text_end
 
 _OakSpeechText2B::
 	text_start
 
-	para "For some people,"
-	line "#MON are"
-	cont "pets. Others use"
-	cont "them for fights."
+	para "Για μερικο΄υς,"
+	line "τα #MON ε΄ιναι"
+	cont "κατοικ΄ιδια. ΄Αλλοι"
+	cont "πα΄ιρνουν μ΄ερος σε"
+	cont "μ΄αχες μαζ΄ι τους."
 
-	para "Myself..."
+	para "΄Οσο για μ΄ενα..."
 
-	para "I study #MON"
-	line "as a profession."
+	para "Μελετ΄ω τα #MON"
+	line "ως επ΄αγγελμα."
 	prompt
 
 _IntroducePlayerText::
-	text "First, what is"
-	line "your name?"
+	text "Καταρχ΄ας, π΄ως"
+	line "σε λ΄ενε;"
 	prompt
 
 _IntroduceRivalText::
-	text "This is my grand-"
-	line "son. He's been"
-	cont "your rival since"
-	cont "you were a baby."
+	text "Αυτ΄ος ε΄ιναι ο"
+	line "εγγον΄ος μου."
+	
+	para "Απ΄ο μικρο΄ι ε΄ιστε"
+	line "αντ΄ιζηλοι."
 
-	para "...Erm, what is"
-	line "his name again?"
+	para "...Εμ, π΄ως τον"
+	line "λ΄ενε ε΄ιπαμε;"
 	prompt
 
 _OakSpeechText3::
 	text "<PLAYER>!"
 
-	para "Your very own"
-	line "#MON legend is"
-	cont "about to unfold!"
+	para "Ο θρ΄υλος σου με"
+	line "τα #MON θα"
+	cont "αρχ΄ισει τ΄ωρα!"
 
-	para "A world of dreams"
-	line "and adventures"
-	cont "with #MON"
-	cont "awaits! Let's go!"
+	para "΄Ενας κ΄οσμος γεμ΄α-"
+	line "τος ΄ονειρα και"
+	cont "περιπ΄ετεια με τα"
+	cont "#MON σε περι-"
+	cont "μ΄ενει! Π΄αμε!"
 	done
 
 _DoYouWantToNicknameText::
@@ -1761,14 +1764,14 @@ _DoYouWantToNicknameText::
 	done
 
 _YourNameIsText::
-	text "Right! So your"
-	line "name is <PLAYER>!"
+	text "Σωστ΄α! Οπ΄οτε"
+	line "σε λ΄ενε <PLAYER>!"
 	prompt
 
 _HisNameIsText::
-	text "That's right! I"
-	line "remember now! His"
-	cont "name is <RIVAL>!"
+	text "Μπρ΄αβο! Τ΄ωρα"
+	line "θυμ΄ηθηκα! Τον"
+	cont "λ΄ενε <RIVAL>!"
 	prompt
 
 _WillBeTradedText::

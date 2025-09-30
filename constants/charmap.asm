@@ -25,6 +25,26 @@
 	charmap "<TRAINER>", $5d ; "TRAINER"
 	charmap "<ROCKET>",  $5e ; "ROCKET"
 	charmap "<DEXEND>",  $5f
+	charmap "Ά",         $34
+	charmap "Έ",         $35
+	charmap "Ή",         $36
+	charmap "Ί",         $37
+	charmap "Ό",         $38
+	charmap "Ύ",         $39
+	charmap "Ώ",         $3a
+	charmap "ά",         $3b
+	charmap "έ",         $3c
+	charmap "ή",         $3d
+	charmap "ί",         $3e
+	charmap "ό",         $3f
+	charmap "ύ",         $40
+	charmap "ώ",         $41
+	charmap "Ϊ",         $42
+	charmap "Ϋ",         $43
+	charmap "ϊ",         $44
+	charmap "ϋ",         $45
+	charmap "ΐ",         $46
+	charmap "ΰ",         $47
 
 ; Actual characters (from gfx/font/font_extra.png)
 
@@ -252,7 +272,6 @@
 	charmap "¨",         $dd
 	charmap "΅",         $de
 	charmap "<TONOS2>",  $df ; Tonos used for capital letters
-
 
 ; Japanese kana, for those bits of text that were not translated to English
 
